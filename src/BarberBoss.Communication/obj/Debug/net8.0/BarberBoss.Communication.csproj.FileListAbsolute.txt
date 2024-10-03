@@ -1,0 +1,11 @@
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Communication\bin\Debug\net8.0\BarberBoss.Communication.deps.json
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Communication\bin\Debug\net8.0\BarberBoss.Communication.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Communication\bin\Debug\net8.0\BarberBoss.Communication.pdb
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Communication\obj\Debug\net8.0\BarberBoss.Communication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Communication\obj\Debug\net8.0\BarberBoss.Communication.AssemblyInfoInputs.cache
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Communication\obj\Debug\net8.0\BarberBoss.Communication.AssemblyInfo.cs
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Communication\obj\Debug\net8.0\BarberBoss.Communication.csproj.CoreCompileInputs.cache
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Communication\obj\Debug\net8.0\BarberBoss.Communication.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Communication\obj\Debug\net8.0\refint\BarberBoss.Communication.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Communication\obj\Debug\net8.0\BarberBoss.Communication.pdb
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Communication\obj\Debug\net8.0\ref\BarberBoss.Communication.dll
