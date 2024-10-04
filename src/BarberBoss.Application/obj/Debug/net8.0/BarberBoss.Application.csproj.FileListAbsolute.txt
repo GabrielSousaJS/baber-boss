@@ -18,3 +18,4 @@ C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Appl
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Application\obj\Debug\net8.0\BarberBoss.Application.pdb
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Application\obj\Debug\net8.0\ref\BarberBoss.Application.dll
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Application\obj\Debug\net8.0\BarberBoss.Application.sourcelink.json
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Application\bin\Debug\net8.0\Logo\logo.png

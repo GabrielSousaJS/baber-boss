@@ -4,6 +4,7 @@ using BarberBoss.Application.UseCases.Invoice.GetAll;
 using BarberBoss.Application.UseCases.Invoice.GetById;
 using BarberBoss.Application.UseCases.Invoice.Register;
 using BarberBoss.Application.UseCases.Invoice.Report.Excel;
+using BarberBoss.Application.UseCases.Invoice.Reports.Pdf;
 using BarberBoss.Application.UseCases.Invoice.Update;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -30,6 +31,9 @@ public static class DependencyInjectionExtension
         services.AddScoped<IGetByIdInvoiceUseCase, GetByIdInvoiceUseCase>();
         services.AddScoped<IUpdateInvoiceUseCase, UpdateInvoiceUseCase>();
         services.AddScoped<IDeleteInvoiceUseCase, DeleteInvoiceUseCase>();
+
+        // Invoice -> Report
         services.AddScoped<IGenerateInvoiceReportExcelUseCase, GenerateInvoiceReportExcelUseCase>();
+        services.AddScoped<IGenerateInvoiceReportPdfUseCase, GenerateInvoiceReportPdfUseCase>();
     }
 }

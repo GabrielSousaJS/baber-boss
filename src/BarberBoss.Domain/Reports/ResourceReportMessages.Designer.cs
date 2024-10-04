@@ -70,6 +70,15 @@ namespace BarberBoss.Domain.Reports {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Faturamento.
+        /// </summary>
+        public static string BILLING {
+            get {
+                return ResourceManager.GetString("BILLING", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Dinheiro.
         /// </summary>
         public static string CASH {
@@ -147,6 +156,15 @@ namespace BarberBoss.Domain.Reports {
         public static string TITLE {
             get {
                 return ResourceManager.GetString("TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Faturamento da semana.
+        /// </summary>
+        public static string TOTAL_BILLED {
+            get {
+                return ResourceManager.GetString("TOTAL_BILLED", resourceCulture);
             }
         }
     }

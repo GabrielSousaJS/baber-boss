@@ -70,3 +70,4 @@ C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\bin\Debug\net8.0\de\MigraDoc.RtfRendering.resources.dll
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\bin\Debug\net8.0\de\PdfSharp.Charting.resources.dll
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\bin\Debug\net8.0\de\PdfSharp.resources.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\bin\Debug\net8.0\Logo\logo.png
