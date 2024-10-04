@@ -38,3 +38,13 @@ C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\obj\Debug\net8.0\BarberBoss.Api.pdb
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\obj\Debug\net8.0\BarberBoss.Api.genruntimeconfig.cache
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\obj\Debug\net8.0\ref\BarberBoss.Api.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\bin\Debug\net8.0\MySqlConnector.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\bin\Debug\net8.0\BarberBoss.Infraestructure.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\bin\Debug\net8.0\BarberBoss.Infraestructure.pdb
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\obj\Debug\net8.0\BarberBoss.Api.sourcelink.json

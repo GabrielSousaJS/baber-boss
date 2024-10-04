@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "rGu1cZwr5T4SUZIVwwTcwQS0ffPlh6AvLq5DIBaiiGCsmuBE1iQMIDKGxBSXfFLbp3a3T35KayzXolqOKFBrGg==",
+  "dgSpecHash": "Srt8/vRLG5Zhne1d98suAruFCccXztC4t4tkgyDPykbxptewXd88B03qtl8+lECT0OdXovEsUfymzDJUd576Uw==",
   "success": true,
   "projectFilePath": "C:\\Users\\gabri\\ws-rocketseat\\ws-csharp-desafio-04\\BarberBoss\\src\\BarberBoss.Application\\BarberBoss.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\gabri\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\gabri\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
+    "C:\\Users\\gabri\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\gabri\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\gabri\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\gabri\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\gabri\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

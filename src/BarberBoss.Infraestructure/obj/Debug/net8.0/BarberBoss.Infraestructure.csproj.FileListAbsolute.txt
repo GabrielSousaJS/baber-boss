@@ -1,0 +1,16 @@
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Infraestructure\bin\Debug\net8.0\BarberBoss.Infraestructure.deps.json
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Infraestructure\bin\Debug\net8.0\BarberBoss.Infraestructure.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Infraestructure\bin\Debug\net8.0\BarberBoss.Infraestructure.pdb
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Infraestructure\bin\Debug\net8.0\BarberBoss.Domain.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Infraestructure\bin\Debug\net8.0\BarberBoss.Domain.pdb
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Infraestructure\obj\Debug\net8.0\BarberBoss.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Infraestructure\obj\Debug\net8.0\BarberBoss.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Infraestructure\obj\Debug\net8.0\BarberBoss.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Infraestructure\obj\Debug\net8.0\BarberBoss.Infraestructure.AssemblyInfo.cs
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Infraestructure\obj\Debug\net8.0\BarberBoss.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Infraestructure\obj\Debug\net8.0\BarberBoss.Infraestructure.sourcelink.json
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Infraestructure\obj\Debug\net8.0\BarberBo.828B9E66.Up2Date
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Infraestructure\obj\Debug\net8.0\BarberBoss.Infraestructure.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Infraestructure\obj\Debug\net8.0\refint\BarberBoss.Infraestructure.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Infraestructure\obj\Debug\net8.0\BarberBoss.Infraestructure.pdb
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Infraestructure\obj\Debug\net8.0\ref\BarberBoss.Infraestructure.dll

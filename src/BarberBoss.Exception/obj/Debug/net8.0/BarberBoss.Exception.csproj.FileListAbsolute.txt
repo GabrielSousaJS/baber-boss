@@ -9,3 +9,6 @@ C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Exce
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Exception\obj\Debug\net8.0\refint\BarberBoss.Exception.dll
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Exception\obj\Debug\net8.0\BarberBoss.Exception.pdb
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Exception\obj\Debug\net8.0\ref\BarberBoss.Exception.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Exception\obj\Debug\net8.0\BarberBoss.Exception.ResourceErrorMessages.resources
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Exception\obj\Debug\net8.0\BarberBoss.Exception.csproj.GenerateResource.cache
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Exception\obj\Debug\net8.0\BarberBoss.Exception.sourcelink.json
