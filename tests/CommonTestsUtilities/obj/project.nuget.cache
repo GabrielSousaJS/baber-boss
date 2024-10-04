@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OCU1yLxZy6nc7VBHF9MkO6MpFlFrr0FDQye4ZzI7ewC8mCNQ0ANh0KINsYOZtUIuTktCZtpLfW5NfZdPU92uJg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gabri\\ws-rocketseat\\ws-csharp-desafio-04\\BarberBoss\\tests\\CommonTestsUtilities\\CommonTestsUtilities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gabri\\.nuget\\packages\\bogus\\35.6.1\\bogus.35.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}
