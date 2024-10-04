@@ -10,3 +10,5 @@ C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Doma
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Domain\obj\Debug\net8.0\BarberBoss.Domain.pdb
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Domain\obj\Debug\net8.0\ref\BarberBoss.Domain.dll
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Domain\obj\Debug\net8.0\BarberBoss.Domain.sourcelink.json
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Domain\obj\Debug\net8.0\BarberBoss.Domain.Reports.ResourceReportMessages.resources
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Domain\obj\Debug\net8.0\BarberBoss.Domain.csproj.GenerateResource.cache

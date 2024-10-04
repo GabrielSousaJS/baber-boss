@@ -23,6 +23,21 @@ internal class InvoiceRepository(BarberBossDbContext dbContext) : IInvoiceWriteO
         return await _dbContext.Invoice.AsNoTracking().FirstOrDefaultAsync(invoice => invoice.Id == id);
     }
 
+    public async Task<List<Invoice>> FilterByMonth(DateOnly date)
+    {
+        var startDate = new DateTime(year: date.Year, month: date.Month, day: 1).Date;
+        var daysInMonth = DateTime.DaysInMonth(year: date.Year, month: date.Month);
+
+        var endDate = new DateTime(year: date.Year, month: date.Month, day: daysInMonth, hour: 23, minute: 59, second: 59).Date;
+
+        return await _dbContext
+            .Invoice
+            .AsNoTracking()
+            .Where(invoice => invoice.Date >= startDate && invoice.Date <= endDate)
+            .OrderBy(invoice => invoice.Date)
+            .ToListAsync();
+    }
+
     async Task<Invoice?> IUpdateInvoiceRespository.GetById(long id)
     {
         return await _dbContext.Invoice.FirstOrDefaultAsync(invoice => invoice.Id == id);
