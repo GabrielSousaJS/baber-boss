@@ -3,7 +3,9 @@ using BarberBoss.Application.UseCases.Invoice.GetAll;
 using BarberBoss.Application.UseCases.Invoice.GetById;
 using BarberBoss.Application.UseCases.Invoice.Register;
 using BarberBoss.Application.UseCases.Invoice.Update;
+using BarberBoss.Communication.Errors.Response;
 using BarberBoss.Communication.Invoice.Requests;
+using BarberBoss.Communication.Invoice.Responses;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BarberBoss.Api.Controllers;
@@ -12,6 +14,8 @@ namespace BarberBoss.Api.Controllers;
 public class InvoiceController : ControllerBase
 {
     [HttpPost]
+    [ProducesResponseType(typeof(ResponseRegisterInvoiceJson), StatusCodes.Status201Created)]
+    [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status400BadRequest)]
     public async Task<IActionResult> Register(
         [FromServices] IRegisterInvoiceUseCase useCase,
         [FromBody] RequestInvoiceJson request)
@@ -22,6 +26,7 @@ public class InvoiceController : ControllerBase
     }
 
     [HttpGet]
+    [ProducesResponseType(typeof(ResponseInvoicesJson), StatusCodes.Status200OK)]
     public async Task<IActionResult> GetAll(
         [FromServices] IGetAllInvoicesUseCase useCase)
     {
@@ -32,6 +37,8 @@ public class InvoiceController : ControllerBase
 
     [HttpGet]
     [Route("{id}")]
+    [ProducesResponseType(typeof(ResponseInvoiceJson), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status404NotFound)]
     public async Task<IActionResult> GetById([FromServices] IGetByIdInvoiceUseCase useCase, [FromRoute] long id)
     {
         var result = await useCase.Execute(id);
@@ -41,6 +48,9 @@ public class InvoiceController : ControllerBase
 
     [HttpPut]
     [Route("{id}")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status404NotFound)]
     public async Task<IActionResult> Update(
         [FromServices] IUpdateInvoiceUseCase useCase,
         [FromRoute] long id,
@@ -54,6 +64,8 @@ public class InvoiceController : ControllerBase
 
     [HttpDelete]
     [Route("{id}")]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status404NotFound)]
     public async Task<IActionResult> Delete(
         [FromServices] IDeleteInvoiceUseCase useCase,
         [FromRoute] long id

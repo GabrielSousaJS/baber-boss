@@ -10,6 +10,8 @@ namespace BarberBoss.Api.Controllers;
 public class ReportController : ControllerBase
 {
     [HttpGet("excel")]
+    [ProducesResponseType(typeof(FileContentResult), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
     public async Task<IActionResult> GetExcel(
         [FromServices] IGenerateInvoiceReportExcelUseCase useCase,
         [FromHeader] string month)
@@ -25,6 +27,8 @@ public class ReportController : ControllerBase
     }
 
     [HttpGet("pdf")]
+    [ProducesResponseType(typeof(FileContentResult), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
     public async Task<IActionResult> GetPdf(
         [FromServices] IGenerateInvoiceReportPdfUseCase useCase,
         [FromHeader] string month)
