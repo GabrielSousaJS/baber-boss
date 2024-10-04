@@ -17,4 +17,9 @@ internal class InvoiceRepository(BarberBossDbContext dbContext) : IInvoiceWriteO
     {
         return await _dbContext.Invoice.AsNoTracking().ToListAsync();
     }
+
+    public async Task<Invoice?> GetById(long id)
+    {
+        return await _dbContext.Invoice.AsNoTracking().FirstOrDefaultAsync(invoice => invoice.Id == id);
+    }
 }

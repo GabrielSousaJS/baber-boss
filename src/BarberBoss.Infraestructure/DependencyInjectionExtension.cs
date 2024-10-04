@@ -26,7 +26,10 @@ public static class DependencyInjectionExtension
 
     private static void AddRepositories(IServiceCollection services)
     {
+        // Unidade de trabalho
         services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+        // Invoice
         services.AddScoped<IInvoiceWriteOnlyRepository, InvoiceRepository>();
         services.AddScoped<IInvoiceReadOnlyRepository, InvoiceRepository>();
     }

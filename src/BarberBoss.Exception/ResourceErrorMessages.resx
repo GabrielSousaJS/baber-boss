@@ -123,6 +123,9 @@
   <data name="BILLING_CANNOT_FOR_THE_FUTURE" xml:space="preserve">
     <value>O faturamento não pode ser para o futuro.</value>
   </data>
+  <data name="BILLING_NOT_FOUND" xml:space="preserve">
+    <value>Faturamento não encontrado.</value>
+  </data>
   <data name="PAYMENT_TYPE_INVALID" xml:space="preserve">
     <value>O tipo de pagamento não está definido.</value>
   </data>
