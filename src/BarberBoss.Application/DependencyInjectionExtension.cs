@@ -1,4 +1,5 @@
 using BarberBoss.Application.AutoMapper;
+using BarberBoss.Application.UseCases.Invoice.Delete;
 using BarberBoss.Application.UseCases.Invoice.GetAll;
 using BarberBoss.Application.UseCases.Invoice.GetById;
 using BarberBoss.Application.UseCases.Invoice.Register;
@@ -27,5 +28,6 @@ public static class DependencyInjectionExtension
         services.AddScoped<IGetAllInvoicesUseCase, GetAllInvoicesUseCase>();
         services.AddScoped<IGetByIdInvoiceUseCase, GetByIdInvoiceUseCase>();
         services.AddScoped<IUpdateInvoiceUseCase, UpdateInvoiceUseCase>();
+        services.AddScoped<IDeleteInvoiceUseCase, DeleteInvoiceUseCase>();
     }
 }

@@ -32,4 +32,16 @@ internal class InvoiceRepository(BarberBossDbContext dbContext) : IInvoiceWriteO
     {
         _dbContext.Invoice.Update(invoice);
     }
+
+    public async Task<bool> Delete(long id)
+    {
+        var invoice = await _dbContext.Invoice.FirstOrDefaultAsync(invoice => invoice.Id == id);
+
+        if (invoice is null)
+            return false;
+
+        _dbContext.Invoice.Remove(invoice);
+
+        return true;
+    }
 }

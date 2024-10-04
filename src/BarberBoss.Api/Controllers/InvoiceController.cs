@@ -1,4 +1,5 @@
-﻿using BarberBoss.Application.UseCases.Invoice.GetAll;
+﻿using BarberBoss.Application.UseCases.Invoice.Delete;
+using BarberBoss.Application.UseCases.Invoice.GetAll;
 using BarberBoss.Application.UseCases.Invoice.GetById;
 using BarberBoss.Application.UseCases.Invoice.Register;
 using BarberBoss.Application.UseCases.Invoice.Update;
@@ -47,6 +48,18 @@ public class InvoiceController : ControllerBase
         )
     {
         await useCase.Execute(id, request);
+
+        return NoContent();
+    }
+
+    [HttpDelete]
+    [Route("{id}")]
+    public async Task<IActionResult> Delete(
+        [FromServices] IDeleteInvoiceUseCase useCase,
+        [FromRoute] long id
+        )
+    {
+        await useCase.Execute(id);
 
         return NoContent();
     }
