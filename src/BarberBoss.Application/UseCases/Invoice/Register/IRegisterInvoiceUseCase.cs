@@ -4,5 +4,5 @@ using BarberBoss.Communication.Invoice.Responses;
 namespace BarberBoss.Application.UseCases.Invoice.Register;
 public interface IRegisterInvoiceUseCase
 {
-    Task<ResponseRegisterInvoiceJson> Execute(RequestRegisterInvoiceJson request);
+    Task<ResponseRegisterInvoiceJson> Execute(RequestInvoiceJson request);
 }

@@ -2,7 +2,7 @@ using BarberBoss.Communication.Enums;
 
 namespace BarberBoss.Communication.Invoice.Requests;
 
-public class RequestRegisterInvoiceJson
+public class RequestInvoiceJson
 {
     public string Title { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;

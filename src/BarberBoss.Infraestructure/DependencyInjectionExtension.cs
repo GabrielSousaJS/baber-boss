@@ -32,5 +32,6 @@ public static class DependencyInjectionExtension
         // Invoice
         services.AddScoped<IInvoiceWriteOnlyRepository, InvoiceRepository>();
         services.AddScoped<IInvoiceReadOnlyRepository, InvoiceRepository>();
+        services.AddScoped<IUpdateInvoiceRespository, InvoiceRepository>();
     }
 }

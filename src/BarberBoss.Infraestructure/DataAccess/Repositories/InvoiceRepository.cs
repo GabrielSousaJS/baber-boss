@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BarberBoss.Infraestructure.DataAccess.Repositories;
 
-internal class InvoiceRepository(BarberBossDbContext dbContext) : IInvoiceWriteOnlyRepository, IInvoiceReadOnlyRepository
+internal class InvoiceRepository(BarberBossDbContext dbContext) : IInvoiceWriteOnlyRepository, IInvoiceReadOnlyRepository, IUpdateInvoiceRespository
 {
     private readonly BarberBossDbContext _dbContext = dbContext;
 
@@ -21,5 +21,15 @@ internal class InvoiceRepository(BarberBossDbContext dbContext) : IInvoiceWriteO
     public async Task<Invoice?> GetById(long id)
     {
         return await _dbContext.Invoice.AsNoTracking().FirstOrDefaultAsync(invoice => invoice.Id == id);
+    }
+
+    async Task<Invoice?> IUpdateInvoiceRespository.GetById(long id)
+    {
+        return await _dbContext.Invoice.FirstOrDefaultAsync(invoice => invoice.Id == id);
+    }
+
+    public void Update(Invoice invoice)
+    {
+        _dbContext.Invoice.Update(invoice);
     }
 }

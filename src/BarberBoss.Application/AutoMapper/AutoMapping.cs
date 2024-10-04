@@ -15,7 +15,7 @@ public class AutoMapping : Profile
 
     private void RequestToEntity()
     {
-        CreateMap<RequestRegisterInvoiceJson, Invoice>();
+        CreateMap<RequestInvoiceJson, Invoice>();
     }
 
     private void EntityToResponse()

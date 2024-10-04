@@ -1,6 +1,7 @@
 ﻿using BarberBoss.Application.UseCases.Invoice.GetAll;
 using BarberBoss.Application.UseCases.Invoice.GetById;
 using BarberBoss.Application.UseCases.Invoice.Register;
+using BarberBoss.Application.UseCases.Invoice.Update;
 using BarberBoss.Communication.Invoice.Requests;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,7 +13,7 @@ public class InvoiceController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> Register(
         [FromServices] IRegisterInvoiceUseCase useCase,
-        [FromBody] RequestRegisterInvoiceJson request)
+        [FromBody] RequestInvoiceJson request)
     {
         var result = await useCase.Execute(request);
 
@@ -35,5 +36,18 @@ public class InvoiceController : ControllerBase
         var result = await useCase.Execute(id);
 
         return Ok(result);
+    }
+
+    [HttpPut]
+    [Route("{id}")]
+    public async Task<IActionResult> Update(
+        [FromServices] IUpdateInvoiceUseCase useCase,
+        [FromRoute] long id,
+        [FromBody] RequestInvoiceJson request
+        )
+    {
+        await useCase.Execute(id, request);
+
+        return NoContent();
     }
 }

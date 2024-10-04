@@ -4,7 +4,7 @@ using FluentValidation;
 
 namespace BarberBoss.Application.UseCases.Invoice;
 
-public class InvoiceValidator : AbstractValidator<RequestRegisterInvoiceJson>
+public class InvoiceValidator : AbstractValidator<RequestInvoiceJson>
 {
     public InvoiceValidator()
     {

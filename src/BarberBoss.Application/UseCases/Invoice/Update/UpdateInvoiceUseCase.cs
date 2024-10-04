@@ -1,29 +1,29 @@
 using AutoMapper;
 using BarberBoss.Communication.Invoice.Requests;
-using BarberBoss.Communication.Invoice.Responses;
 using BarberBoss.Domain.Repositories;
 using BarberBoss.Domain.Repositories.Invoice;
+using BarberBoss.Exception;
 using BarberBoss.Exception.ExceptionBase;
 
-namespace BarberBoss.Application.UseCases.Invoice.Register;
+namespace BarberBoss.Application.UseCases.Invoice.Update;
 
-public class RegisterInvoiceUseCase(IMapper mapper, IInvoiceWriteOnlyRepository repository, IUnitOfWork unitOfWork) : IRegisterInvoiceUseCase
+public class UpdateInvoiceUseCase(IMapper mapper, IUpdateInvoiceRespository repository, IUnitOfWork unitOfWork) : IUpdateInvoiceUseCase
 {
     private readonly IMapper _mapper = mapper;
-    private readonly IInvoiceWriteOnlyRepository _repository = repository;
+    private readonly IUpdateInvoiceRespository _repository = repository;
     private readonly IUnitOfWork _unitOfWork = unitOfWork;
 
-    public async Task<ResponseRegisterInvoiceJson> Execute(RequestInvoiceJson request)
+    public async Task Execute(long id, RequestInvoiceJson request)
     {
         Validate(request);
 
-        var entity = _mapper.Map<Domain.Entities.Invoice>(request);
+        var invoice = await _repository.GetById(id) ?? throw new NotFoundException(ResourceErrorMessages.BILLING_NOT_FOUND);
+        
+        _mapper.Map(request, invoice);
 
-        await _repository.Add(entity);
+        _repository.Update(invoice);
 
         await _unitOfWork.Commit();
-
-        return _mapper.Map<ResponseRegisterInvoiceJson>(entity);
     }
 
     private static void Validate(RequestInvoiceJson request)
