@@ -21,5 +21,6 @@ public class AutoMapping : Profile
     private void EntityToResponse()
     {
         CreateMap<Invoice, ResponseRegisterInvoiceJson>();
+        CreateMap<Invoice, ResponseShortInvoiceJson>();
     }
 }
