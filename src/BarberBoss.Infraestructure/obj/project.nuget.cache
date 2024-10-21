@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "56096Jyss94hSCl8Rnub54X9Nuga6h9Wr8JNiuOcrJ3mDPWlSC70hJHeYg+G/X9H97R8gMAInH/4IHyJHcjq7w==",
+  "dgSpecHash": "CWb45pUwff8MhDcqZf5uidVSWZJ9gKMg1wvtH/S+QsL3d8RfentErSvE8ai7kkzxOjdXRh+F/R5HiUBIXXYZpQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\gabri\\ws-rocketseat\\ws-csharp-desafio-04\\BarberBoss\\src\\BarberBoss.Infraestructure\\BarberBoss.Infraestructure.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\gabri\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.2\\microsoft.extensions.configuration.binder.8.0.2.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
