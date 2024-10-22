@@ -6,6 +6,7 @@ using BarberBoss.Application.UseCases.Invoice.Register;
 using BarberBoss.Application.UseCases.Invoice.Report.Excel;
 using BarberBoss.Application.UseCases.Invoice.Reports.Pdf;
 using BarberBoss.Application.UseCases.Invoice.Update;
+using BarberBoss.Application.UseCases.User.Register;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace BarberBoss.Application;
@@ -35,5 +36,8 @@ public static class DependencyInjectionExtension
         // Invoice -> Report
         services.AddScoped<IGenerateInvoiceReportExcelUseCase, GenerateInvoiceReportExcelUseCase>();
         services.AddScoped<IGenerateInvoiceReportPdfUseCase, GenerateInvoiceReportPdfUseCase>();
+
+        // User
+        services.AddScoped<IRegisterTeamMemberUserUseCase, RegisterTeamMemberUserUseCase>();
     }
 }

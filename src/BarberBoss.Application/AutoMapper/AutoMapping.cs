@@ -1,6 +1,8 @@
 using AutoMapper;
 using BarberBoss.Communication.Invoice.Requests;
 using BarberBoss.Communication.Invoice.Responses;
+using BarberBoss.Communication.User.Requests;
+using BarberBoss.Communication.User.Responses;
 using BarberBoss.Domain.Entities;
 
 namespace BarberBoss.Application.AutoMapper;
@@ -15,11 +17,17 @@ public class AutoMapping : Profile
 
     private void RequestToEntity()
     {
+        // Invoice
         CreateMap<RequestInvoiceJson, Invoice>();
+        
+        // User
+        CreateMap<RequestRegisterUserJson, User>()
+            .ForMember(dest => dest.Password, config => config.Ignore());
     }
 
     private void EntityToResponse()
     {
+        // Invoice
         CreateMap<Invoice, ResponseRegisterInvoiceJson>();
         CreateMap<Invoice, ResponseShortInvoiceJson>();
         CreateMap<Invoice, ResponseInvoiceJson>();

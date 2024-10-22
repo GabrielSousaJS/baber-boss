@@ -145,3 +145,10 @@ C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
