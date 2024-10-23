@@ -1,6 +1,7 @@
 ﻿using BarberBoss.Application.UseCases.User.Profile;
 using BarberBoss.Application.UseCases.User.Register;
 using BarberBoss.Application.UseCases.User.RegisterAdministrator;
+using BarberBoss.Application.UseCases.User.Update;
 using BarberBoss.Communication.User.Requests;
 using BarberBoss.Domain.Enums;
 using Microsoft.AspNetCore.Authorization;
@@ -43,5 +44,16 @@ public class UserController : ControllerBase
         var response = await useCase.Execute();
 
         return Ok(response);
+    }
+
+    [HttpPut]
+    [Authorize]
+    public async Task<IActionResult> Update(
+        [FromServices] IUpdateUserUseCase useCase,
+        [FromBody] RequestUpdateUserJson request)
+    {
+        await useCase.Execute(request);
+
+        return NoContent();
     }
 }

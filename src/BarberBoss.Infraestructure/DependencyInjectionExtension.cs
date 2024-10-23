@@ -46,6 +46,7 @@ public static class DependencyInjectionExtension
         // User
         services.AddScoped<IUserReadOnlyRepository, UserRepository>();
         services.AddScoped<IUserWriteOnlyRepository, UserRepository>();
+        services.AddScoped<IUserUpdateOnlyRepository, UserRepository>();
     }
 
     private static void AddCryptography(IServiceCollection services)

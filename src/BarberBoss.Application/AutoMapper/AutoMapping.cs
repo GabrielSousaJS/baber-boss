@@ -23,6 +23,7 @@ public class AutoMapping : Profile
         // User
         CreateMap<RequestRegisterUserJson, User>()
             .ForMember(dest => dest.Password, config => config.Ignore());
+        CreateMap<RequestUpdateUserJson, User>();
     }
 
     private void EntityToResponse()

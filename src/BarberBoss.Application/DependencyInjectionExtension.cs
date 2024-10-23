@@ -10,7 +10,7 @@ using BarberBoss.Application.UseCases.Login.DoLogin;
 using BarberBoss.Application.UseCases.User.Profile;
 using BarberBoss.Application.UseCases.User.Register;
 using BarberBoss.Application.UseCases.User.RegisterAdministrator;
-using BarberBoss.Domain.Services.LoggedUser;
+using BarberBoss.Application.UseCases.User.Update;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace BarberBoss.Application;
@@ -45,6 +45,7 @@ public static class DependencyInjectionExtension
         services.AddScoped<IRegisterUserAdministratorUseCase, RegisterUserAdministratorUseCase>();
         services.AddScoped<IRegisterTeamMemberUserUseCase, RegisterTeamMemberUserUseCase>();
         services.AddScoped<IUserProfileUseCase, UserProfileUseCase>();
+        services.AddScoped<IUpdateUserUseCase, UpdateUserUseCase>();
 
         // Login
         services.AddScoped<IDoLoginUseCase, DoLoginUseCase>();
