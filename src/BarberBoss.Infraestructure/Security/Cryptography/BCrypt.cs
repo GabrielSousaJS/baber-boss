@@ -11,4 +11,6 @@ public class BCrypt : IPasswordEncrypter
 
         return passwordHash;
     }
+
+    public bool Verify(string password, string passwordHash) => BC.Verify(password, passwordHash);
 }
