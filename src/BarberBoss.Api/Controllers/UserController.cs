@@ -1,4 +1,5 @@
-﻿using BarberBoss.Application.UseCases.User.Register;
+﻿using BarberBoss.Application.UseCases.User.Profile;
+using BarberBoss.Application.UseCases.User.Register;
 using BarberBoss.Application.UseCases.User.RegisterAdministrator;
 using BarberBoss.Communication.User.Requests;
 using BarberBoss.Domain.Enums;
@@ -31,5 +32,16 @@ public class UserController : ControllerBase
         var result = await useCase.Execute(request);
 
         return Created(string.Empty, result);
+    }
+
+    [HttpGet]
+    [Route("profile")]
+    [Authorize]
+    public async Task<IActionResult> Profile(
+        [FromServices] IUserProfileUseCase useCase)
+    {
+        var response = await useCase.Execute();
+
+        return Ok(response);
     }
 }

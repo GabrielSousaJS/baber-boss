@@ -31,5 +31,8 @@ public class AutoMapping : Profile
         CreateMap<Invoice, ResponseRegisterInvoiceJson>();
         CreateMap<Invoice, ResponseShortInvoiceJson>();
         CreateMap<Invoice, ResponseInvoiceJson>();
+
+        // User
+        CreateMap<User, ResponseUserProfileJson>();
     }
 }

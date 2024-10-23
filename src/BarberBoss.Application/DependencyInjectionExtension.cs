@@ -7,8 +7,10 @@ using BarberBoss.Application.UseCases.Invoice.Report.Excel;
 using BarberBoss.Application.UseCases.Invoice.Reports.Pdf;
 using BarberBoss.Application.UseCases.Invoice.Update;
 using BarberBoss.Application.UseCases.Login.DoLogin;
+using BarberBoss.Application.UseCases.User.Profile;
 using BarberBoss.Application.UseCases.User.Register;
 using BarberBoss.Application.UseCases.User.RegisterAdministrator;
+using BarberBoss.Domain.Services.LoggedUser;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace BarberBoss.Application;
@@ -42,6 +44,7 @@ public static class DependencyInjectionExtension
         // User
         services.AddScoped<IRegisterUserAdministratorUseCase, RegisterUserAdministratorUseCase>();
         services.AddScoped<IRegisterTeamMemberUserUseCase, RegisterTeamMemberUserUseCase>();
+        services.AddScoped<IUserProfileUseCase, UserProfileUseCase>();
 
         // Login
         services.AddScoped<IDoLoginUseCase, DoLoginUseCase>();

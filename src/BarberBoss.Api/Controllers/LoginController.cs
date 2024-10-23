@@ -1,6 +1,5 @@
 ﻿using BarberBoss.Application.UseCases.Login.DoLogin;
 using BarberBoss.Communication.Login.Request;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BarberBoss.Api.Controllers;
