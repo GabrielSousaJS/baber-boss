@@ -1,6 +1,8 @@
 ﻿using BarberBoss.Application.UseCases.User.Register;
 using BarberBoss.Application.UseCases.User.RegisterAdministrator;
 using BarberBoss.Communication.User.Requests;
+using BarberBoss.Domain.Enums;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BarberBoss.Api.Controllers;
@@ -21,6 +23,7 @@ public class UserController : ControllerBase
 
     [HttpPost]
     [Route("administrator")]
+    [Authorize(Roles = Roles.ADMIN)]
     public async Task<IActionResult> RegisterAdministrator(
         [FromServices] IRegisterUserAdministratorUseCase useCase,
         [FromBody] RequestRegisterUserJson request)

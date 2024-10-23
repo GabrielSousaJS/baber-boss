@@ -1,3 +1,4 @@
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Application\bin\Debug\net8.0\Logo\logo.png
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Application\bin\Debug\net8.0\BarberBoss.Application.deps.json
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Application\bin\Debug\net8.0\BarberBoss.Application.dll
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Application\bin\Debug\net8.0\BarberBoss.Application.pdb
@@ -12,10 +13,9 @@ C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Appl
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Application\obj\Debug\net8.0\BarberBoss.Application.AssemblyInfoInputs.cache
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Application\obj\Debug\net8.0\BarberBoss.Application.AssemblyInfo.cs
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Application\obj\Debug\net8.0\BarberBoss.Application.csproj.CoreCompileInputs.cache
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Application\obj\Debug\net8.0\BarberBoss.Application.sourcelink.json
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Application\obj\Debug\net8.0\BarberBo.8F1D4F3E.Up2Date
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Application\obj\Debug\net8.0\BarberBoss.Application.dll
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Application\obj\Debug\net8.0\refint\BarberBoss.Application.dll
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Application\obj\Debug\net8.0\BarberBoss.Application.pdb
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Application\obj\Debug\net8.0\ref\BarberBoss.Application.dll
-C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Application\obj\Debug\net8.0\BarberBoss.Application.sourcelink.json
-C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Application\bin\Debug\net8.0\Logo\logo.png

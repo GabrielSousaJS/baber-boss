@@ -1,14 +1,14 @@
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Exception\bin\Debug\net8.0\BarberBoss.Exception.deps.json
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Exception\bin\Debug\net8.0\BarberBoss.Exception.dll
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Exception\bin\Debug\net8.0\BarberBoss.Exception.pdb
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Exception\obj\Debug\net8.0\BarberBoss.Exception.ResourceErrorMessages.resources
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Exception\obj\Debug\net8.0\BarberBoss.Exception.csproj.GenerateResource.cache
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Exception\obj\Debug\net8.0\BarberBoss.Exception.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Exception\obj\Debug\net8.0\BarberBoss.Exception.AssemblyInfoInputs.cache
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Exception\obj\Debug\net8.0\BarberBoss.Exception.AssemblyInfo.cs
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Exception\obj\Debug\net8.0\BarberBoss.Exception.csproj.CoreCompileInputs.cache
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Exception\obj\Debug\net8.0\BarberBoss.Exception.sourcelink.json
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Exception\obj\Debug\net8.0\BarberBoss.Exception.dll
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Exception\obj\Debug\net8.0\refint\BarberBoss.Exception.dll
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Exception\obj\Debug\net8.0\BarberBoss.Exception.pdb
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Exception\obj\Debug\net8.0\ref\BarberBoss.Exception.dll
-C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Exception\obj\Debug\net8.0\BarberBoss.Exception.ResourceErrorMessages.resources
-C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Exception\obj\Debug\net8.0\BarberBoss.Exception.csproj.GenerateResource.cache
-C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\src\BarberBoss.Exception\obj\Debug\net8.0\BarberBoss.Exception.sourcelink.json
