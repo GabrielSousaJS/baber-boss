@@ -1,7 +1,7 @@
 using BarberBoss.Application.UseCases.Invoice;
 using BarberBoss.Communication.Enums;
 using BarberBoss.Exception;
-using CommonTestsUtilities.Invoice.Requests;
+using CommonTestsUtilities.Requests;
 using FluentAssertions;
 
 namespace Validators.Tests.Invoice.Register;

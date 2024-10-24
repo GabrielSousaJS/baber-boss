@@ -2,7 +2,7 @@ using BarberBoss.Communication.Enums;
 using BarberBoss.Communication.Invoice.Requests;
 using Bogus;
 
-namespace CommonTestsUtilities.Invoice.Requests;
+namespace CommonTestsUtilities.Requests;
 
 public class RequestInvoiceJsonBuilder
 {
@@ -14,6 +14,5 @@ public class RequestInvoiceJsonBuilder
             .RuleFor(request => request.Date, faker => faker.Date.Past())
             .RuleFor(request => request.PaymentType, faker => faker.PickRandom<PaymentType>())
             .RuleFor(request => request.Amount, faker => faker.Random.Decimal(min: 1, max: 1000));
-            
     }
 }

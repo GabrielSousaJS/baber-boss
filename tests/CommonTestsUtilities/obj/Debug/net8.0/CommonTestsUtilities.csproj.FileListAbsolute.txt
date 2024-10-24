@@ -14,3 +14,10 @@ C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\tests\CommonTestsUt
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\tests\CommonTestsUtilities\obj\Debug\net8.0\refint\CommonTestsUtilities.dll
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\tests\CommonTestsUtilities\obj\Debug\net8.0\CommonTestsUtilities.pdb
 C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\tests\CommonTestsUtilities\obj\Debug\net8.0\ref\CommonTestsUtilities.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\tests\CommonTestsUtilities\bin\Debug\net8.0\Logo\logo.png
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\tests\CommonTestsUtilities\bin\Debug\net8.0\BarberBoss.Application.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\tests\CommonTestsUtilities\bin\Debug\net8.0\BarberBoss.Domain.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\tests\CommonTestsUtilities\bin\Debug\net8.0\BarberBoss.Exception.dll
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\tests\CommonTestsUtilities\bin\Debug\net8.0\BarberBoss.Application.pdb
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\tests\CommonTestsUtilities\bin\Debug\net8.0\BarberBoss.Domain.pdb
+C:\Users\gabri\ws-rocketseat\ws-csharp-desafio-04\BarberBoss\tests\CommonTestsUtilities\bin\Debug\net8.0\BarberBoss.Exception.pdb

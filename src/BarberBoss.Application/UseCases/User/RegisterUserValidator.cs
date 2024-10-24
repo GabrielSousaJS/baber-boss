@@ -12,8 +12,9 @@ public class RegisterUserValidator : AbstractValidator<RequestRegisterUserJson>
         RuleFor(user => user.BirthDate).LessThanOrEqualTo(DateTime.Now.AddYears(-18)).WithMessage(ResourceErrorMessages.BIRTH_DATE_INVALID);
         RuleFor(user => user.Email)
             .NotEmpty().WithMessage(ResourceErrorMessages.EMAIL_EMPTY)
-            .When(user => !string.IsNullOrEmpty(user.Email), ApplyConditionTo.CurrentValidator)
-            .EmailAddress().WithMessage(ResourceErrorMessages.EMAIL_INVALID);
+            .EmailAddress()
+            .When(user => !string.IsNullOrWhiteSpace(user.Email), ApplyConditionTo.CurrentValidator)
+            .WithMessage(ResourceErrorMessages.EMAIL_INVALID);
 
         RuleFor(user => user.Password).SetValidator(new PasswordValidator<RequestRegisterUserJson>());
     }
