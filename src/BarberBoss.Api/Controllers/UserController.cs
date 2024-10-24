@@ -1,4 +1,5 @@
-﻿using BarberBoss.Application.UseCases.User.Profile;
+﻿using BarberBoss.Application.UseCases.User.Delete;
+using BarberBoss.Application.UseCases.User.Profile;
 using BarberBoss.Application.UseCases.User.Register;
 using BarberBoss.Application.UseCases.User.RegisterAdministrator;
 using BarberBoss.Application.UseCases.User.Update;
@@ -53,6 +54,15 @@ public class UserController : ControllerBase
         [FromBody] RequestUpdateUserJson request)
     {
         await useCase.Execute(request);
+
+        return NoContent();
+    }
+
+    [HttpDelete]
+    [Authorize]
+    public async Task<IActionResult> Delete([FromServices] IDeleteUserAccountUseCase useCase)
+    {
+        await useCase.Execute();
 
         return NoContent();
     }

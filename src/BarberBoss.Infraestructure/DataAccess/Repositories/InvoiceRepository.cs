@@ -13,14 +13,14 @@ internal class InvoiceRepository(BarberBossDbContext dbContext) : IInvoiceWriteO
         await _dbContext.AddAsync(invoice);
     }
 
-    public async Task<List<Invoice>> GetAll()
+    public async Task<List<Invoice>> GetAll(long userId)
     {
-        return await _dbContext.Invoice.AsNoTracking().ToListAsync();
+        return await _dbContext.Invoice.AsNoTracking().Where(invoice => invoice.UserId == userId).ToListAsync();
     }
 
-    public async Task<Invoice?> GetById(long id)
+    public async Task<Invoice?> GetById(long id, long userId)
     {
-        return await _dbContext.Invoice.AsNoTracking().FirstOrDefaultAsync(invoice => invoice.Id == id);
+        return await _dbContext.Invoice.AsNoTracking().FirstOrDefaultAsync(invoice => invoice.Id == id && invoice.UserId == userId);
     }
 
     public async Task<List<Invoice>> FilterByMonth(DateOnly date)
@@ -38,9 +38,9 @@ internal class InvoiceRepository(BarberBossDbContext dbContext) : IInvoiceWriteO
             .ToListAsync();
     }
 
-    async Task<Invoice?> IUpdateInvoiceRespository.GetById(long id)
+    async Task<Invoice?> IUpdateInvoiceRespository.GetById(long id, long userId)
     {
-        return await _dbContext.Invoice.FirstOrDefaultAsync(invoice => invoice.Id == id);
+        return await _dbContext.Invoice.FirstOrDefaultAsync(invoice => invoice.Id == id && invoice.UserId == userId);
     }
 
     public void Update(Invoice invoice)
@@ -48,9 +48,9 @@ internal class InvoiceRepository(BarberBossDbContext dbContext) : IInvoiceWriteO
         _dbContext.Invoice.Update(invoice);
     }
 
-    public async Task<bool> Delete(long id)
+    public async Task<bool> Delete(long id, long userId)
     {
-        var invoice = await _dbContext.Invoice.FirstOrDefaultAsync(invoice => invoice.Id == id);
+        var invoice = await _dbContext.Invoice.FirstOrDefaultAsync(invoice => invoice.Id == id && invoice.UserId == userId);
 
         if (invoice is null)
             return false;
